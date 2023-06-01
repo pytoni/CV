@@ -1,0 +1,125 @@
+---
+name: Toni
+surname: Le
+position: "Data Analyst | Data Scientist"
+address: "Saint Paul, Minnesota"
+profilepic: "ToniProfilePic.jpg"
+email: "ptonile@gmail.com"
+github: pytoni
+linkedin: pytonile
+phone: +1 (319) 288 6011
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "Seeking a Data Analyst or Data Scientist position to utilize 7+ years of managerial experience and analytical skills. Committed to delivering insights that drive business growth and improve operational efficiency with a passion for problem-solving. Highly motivated, professional, and adaptable to new technologies and methodologies"
+docname: CV
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = "data.r")
+
+```
+
+# Work Experience
+
+```{r EXPERIENCE}
+
+experience %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
+\pagebreak
+
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
+# Honors
+
+```{r HONORS}
+
+honors %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
+
+# Projects
+
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
+
+
+# Certifications
+
+```{r CERTIFICATIONS}
+
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
