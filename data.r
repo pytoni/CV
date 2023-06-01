@@ -50,7 +50,7 @@ monthly basis, providing valuable findings and insights to the factories for pro
     "Head of Quality Management Department", "Hoa Sen Group", "July", 2015, "September", 2015, "Ho Chi Minh City - Vietnam", "Successfully planned, implemented, and advanced quality systems, standards, and specifications across all 
 levels of the organization, utilizing data-driven insights to drive continuous improvement initiatives.",
     "Quality Executive", "Hoa Sen Group", "August", 2014, "June", 2015, "Ho Chi Minh City - Vietnam", "Collaborated with factory Quality Control teams to collect, validate, and report production data to internal stakeholders 
-(e.g, Trade Remedies, Sales, Purchasing, and Supply Chain), providing valuable insights for business requirements.",
+(e.g., Trade Remedies, Sales, Purchasing, and Supply Chain), providing valuable insights for business requirements.",
     "Quality Executive", "Hoa Sen Group", "August", 2014, "June", 2015, "Ho Chi Minh City - Vietnam", "Prepared comprehensive product and quality reports using advanced analytical methods, collecting, 
 analyzing, and summarizing data to facilitate data-driven decision-making for the Quality Management Department Director.",
     "Quality Executive", "Hoa Sen Group", "August", 2014, "June", 2015, "Ho Chi Minh City - Vietnam", "Played a key role in reviewing and updating international standards and specifications, ensuring their 
