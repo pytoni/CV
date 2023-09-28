@@ -6,8 +6,10 @@ projects <- tribble(
 
 certifications <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "IBM Data Analyst Professional Certificate", "Online", "2022", "Coursera", "This certificate equips learners with the necessary knowledge and practical skills in data analysis, including data manipulation, visualization, and reporting using tools like Excel, SQL, Python, Jupyter Notebooks, and Cognos Analytics.",
+    "Google Advanced Data Analytics Professional Certificate", "Online", "2023", "Coursera", "This program prepares individuals for advanced data analytics roles, fostering competence in tasks such as exploring large datasets, applying data analysis techniques, building models, extracting insights, and mastering machine learning, predictive modeling, and statistics.",
     "Google Data Analytics Professional Certificate", "Online", "2022", "Coursera", "This ceritifcate offers individuals the opportunity to gain competency in tools and platforms such as spreadsheets, SQL, Tableau, and R, enabling them to effectively prepare, process, analyze, and share data for actionable insights.",
+    "IBM Data Analyst Professional Certificate", "Online", "2022", "Coursera", "This certificate equips learners with the necessary knowledge and practical skills in data analysis, including data manipulation, visualization, and reporting using tools like Excel, SQL, Python, Jupyter Notebooks, and Cognos Analytics.",
+    
     
 )
 
