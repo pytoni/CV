@@ -1,7 +1,9 @@
 projects <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "A Simple Point-of-Sale (POS) System", "SEIS 603 Python Project", 2023, "University of St. Thomas", "This Python project develops a console-based POS system, covering user authentication, inventory management, sales activities, and report generation.",
-    "FIFA World Cup Database", "SEIS 630 Database Project", 2023, "University of St. Thomas", "This project aims to design a database for the FIFA World Cup, managing data on teams, players, matches, and tournament statistics. It applies theoretical knowledge from a database management course and utilizes tools like Oracle SQL Developer, Oracle Data Modeler, and Jupyter Notebook."
+    "Football Visualization", "Personal Project", 2023, "St. Paul, MN","Executed a football data analysis project, leveraging Python as the primary tool for extracting, processing, analyzing, and visualizing diverse datasets, including event data, aggregated team statistics, and market value data, to uncover valuable insights.",
+    "A Simple Point-of-Sale (POS) System", "SEIS 603 Python Project", 2023, "University of St. Thomas", "Developed a console-based POS system, covering user authentication, inventory management, sales activities, and report generation.",
+    "FIFA World Cup Database", "SEIS 630 Database Project", 2023, "University of St. Thomas", "Developed a comprehensive FIFA World Cup database, encompassing teams, players, matches, and tournament statistics, employing theoretical database management principles and tools such as Oracle SQL Developer, Oracle Data Modeler, and Jupyter Notebook.",
+    "Quality Management and Complaint Handling Optimization", "Department Project", 2019, "Hoa Sen Group, Vietnam", "Executed a football data analysis project, leveraging Python as the primary tool for extracting, processing, analyzing, and visualizing diverse datasets, including event data, aggregated team statistics, and market value data, to uncover valuable insights."
 )
 
 certifications <- tribble(
@@ -15,8 +17,10 @@ certifications <- tribble(
 
 skills <- tribble(
     ~area, ~skills,
-    "Programming Languages", "Python, R, SQL",
-    "Data Visualization", "Power BI, Tableau, Google Data Studio",
+    "Python", "pandas, numpy, matplotlib, seaborn",
+    "SQL", "SQL Server,	 Oracle SQL Developer, Oracle Data Modeler",
+    "R", "dplyr, tidyr, ggplot2",
+    "Data Visualization", "Pivot Table, Power BI, Tableau, Google Data Studio",
     "Others", "Analysis and research, Problem solving, Management, Teamwork and Collaboration, Flexibility"
 )
 
